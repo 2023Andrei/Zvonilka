@@ -1,21 +1,21 @@
 pluginManagement {
     repositories {
-        maven { url = uri("https://jitpack.io") }
+        gradlePluginPortal()
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
 }
 
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven { url = uri("https://jitpack.io") }
         google()
         mavenCentral()
-        maven { url = uri("https://jitpack.io") } //
+        flatDir {
+            dirs("libs") // подключаем локальные AAR
+        }
     }
 }
 
-rootProject.name = "MessengerStarter"
+rootProject.name = "Zvonilka"
 include(":app")
