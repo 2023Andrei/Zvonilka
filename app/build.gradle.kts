@@ -55,7 +55,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
     // WebRTC
-    implementation("org.webrtc:google-webrtc:1.0.+")
+    implementation("com.github.webrtc-sdk:android:125.6422.06")
 
     // Accompanist permissions
     implementation("com.google.accompanist:accompanist-permissions:0.35.2-beta")
