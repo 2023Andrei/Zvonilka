@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -25,3 +26,34 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+=======
+# Android Studio/IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Google Services (Firebase config)
+app/google-services.json
+
+# Log/OS files
+*.log
+*.apk
+*.ap_
+*.aab
+
+# Keystore files
+*.jks
+*.keystore
+>>>>>>> b5190dd (🚀 Готовый шаблон мессенджера с WebRTC)
